@@ -30,6 +30,6 @@ ghost install
 # Caddy config
 # blog.kirwako.com
 
-echo "your-domain.com" >> reverse_proxy 127.0.0.1:2368
-echo "" >> reverse_proxy 127.0.0.1:2368
-echo "/etc/caddy/Caddyfile" >> reverse_proxy 127.0.0.1:2368
+sudo echo "your-domain.com" > reverse_proxy 127.0.0.1:2368
+sudo echo "" >> reverse_proxy 127.0.0.1:2368
+sudo echo "/etc/caddy/Caddyfile" >> reverse_proxy 127.0.0.1:2368
